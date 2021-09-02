@@ -9,3 +9,8 @@ Luego existen dos formas de ejecución:
 - Headless  : npx cypress run
 
 NOTA: Al ejecutar headless se creara una carpeta video que contiene la grabación de la ejecución de la prueba, en caso de que una prueba falle, se generará una carpeta screenshot con el print del error.
+
+Para ejecutar con reporte Allure
+- Instalar Live Server desde las extensiones de Visual studio code
+- Ejecutar el siguinete comando: npm run all-allure-report
+- Dirigirse a la carpeta allure-Report en la raiz del proyecto, click derecho sobre el archivo indelx.html y abrir con "Open with Live server"
